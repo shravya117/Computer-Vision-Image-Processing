@@ -11,4 +11,4 @@ def split_image_into_squares(image_path, num_of_squares):
 
 squares = split_image_into_squares('image2.jpg', 2)
 for idx, square in enumerate(squares):
-    cv2.imwrite(f'img_{idx}.jpg', square)
+    cv2.imwrite(f'img_{idx}.jpg', square)  
